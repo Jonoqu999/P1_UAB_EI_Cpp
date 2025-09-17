@@ -7,7 +7,6 @@ int main(){
     bool res = false;
     cin >> input;
 
-    res = -3;
-    cout << res;
-    return 0;
+    res = input <= 10;
+    cout << "El resultat de la comparacio es: " << res << endl;
 }
